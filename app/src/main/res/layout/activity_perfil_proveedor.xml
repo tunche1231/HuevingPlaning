@@ -11,9 +11,9 @@
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="135dp"
+        android:layout_marginTop="230dp"
         android:layout_marginBottom="128dp"
-        android:background="#a8000000"
+        android:background="#b7b7b7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,6 +34,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
 
             <TextView
                 android:id="@+id/txt_perfil"
@@ -65,21 +70,21 @@
 
             <TextView
                 android:id="@+id/txt_puntuacion"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="5.0 "
                 android:textAlignment="viewEnd"
                 android:textColor="#000000"
-                android:textSize="50sp" />
+                android:textSize="24sp" />
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity=""
-                android:layout_weight="0"
-                android:src="@android:fa" />
+                android:layout_weight="1"
+                android:src="@android:drawable/btn_star_big_on" />
         </LinearLayout>
 
         <LinearLayout
@@ -158,7 +163,7 @@
                 android:id="@+id/divider"
                 android:layout_width="5dp"
                 android:layout_height="128dp"
-                android:background="#a8000000" />
+                android:background="#b7b7b7" />
 
             <ImageButton
                 android:id="@+id/btn_chat"
