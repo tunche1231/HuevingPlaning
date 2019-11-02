@@ -30,10 +30,6 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.10.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
-<<<<<<< HEAD
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
-=======
     implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha04'
-
->>>>>>> 968fdef75633d8aeeeeb51d3bb81026f80326dc6
 }
